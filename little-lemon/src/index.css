@@ -1,13 +1,18 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+html {
+  background-color: #EDEFEE;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+body {
+  width: 95%;
+  font-family: "Markazi Text", Karla;
+  max-width: 1440px;
+  padding: 0;
+  margin: auto;
+}
+
+@media screen and (max-width: 400px) {
+  body {
+    width: 100%;
+    margin: 0;
+  }
 }
